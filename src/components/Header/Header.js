@@ -27,7 +27,7 @@ const Header = (props) => {
         <div className="leftside">
             <div className="Logo">
                 <img src="./Vector (2).png" alt="" />
-                <p>SamajSeva</p>
+                <p onClick={()=>{window.location.pathname="/"}}>SamajSeva</p>
             </div>
           <div className="nav">
     {props.nav && !(props.M) ? (
