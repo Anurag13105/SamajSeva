@@ -1,0 +1,21 @@
+.MalikBoardButton{
+    padding: 0.5em 1em;
+    background-color: #FFDF3A;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 700;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.posted-event-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #FFDF3A;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+}

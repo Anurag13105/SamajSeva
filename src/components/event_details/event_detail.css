@@ -1,0 +1,80 @@
+.Space_container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Event_Detail_Container {
+    width: 70%;
+    height: 75%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+
+.Event_Detail_Container .image_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+.Event_Detail_Container .detail_side{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 1em;
+}
+.Event_Detail_Container .event_details_Event_Details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'poppins';
+    font-size: 0.8em;
+    width: 100%;
+    line-height: 0.5em;
+}
+
+.Event_Detail_Container .event_details_Event_Details .volunteers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* margin-right: 0.2em; */
+}
+.Event_Detail_Container .event_details_Event_Details .volunteers img{
+    margin-right: 0.35em;
+}
+.Event_Detail_Container .event_details_Event_Details .event_date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* margin-right: 0.2em; */
+}
+.Event_Detail_Container .event_details_Event_Details .event_date img{
+    margin-right: 0.35em;
+}
+.Event_Detail_Container .event_details_Event_Details img{
+    width: 20px;
+    height: 15.45px;
+}
+
+.detail_side .button-event-details{
+    padding: 0.5em 1em;
+    background-color: #FFDF3A;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 700;
+    border-radius: 10px;
+    width: 40%;
+}

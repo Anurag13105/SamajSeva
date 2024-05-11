@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    /* margin: 0 10% ; */
+    background-color: #F0FBD1;
+    width: 100vw;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.header .leftside{
+    display: flex;
+    margin: 0 0 ;
+    align-items: center;
+    
+}
+.header .leftside .Logo{
+    display: flex;
+    align-items: center;
+    margin:0 2.5em;
+
+}
+.header .leftside .Logo p{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    font-family: 'unlock';
+}
+.header .leftside .navigation{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    /* margin: */
+}
+
+.items{
+    margin: 40 px 40 px;
+    list-style-type: none;
+    padding-left:10px ;
+    padding-right:30px ;
+
+}
+
+
+.login-btn{
+    margin-right: 10px;
+    border-color: black;
+    color: black;
+    background-color: #FFDF3A;
+    width: 10em;
+    height: 3.2em;
+    border-radius: 7%;
+
+}
+.flex{
+    display: flex;
+}
+

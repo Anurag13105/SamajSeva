@@ -1,0 +1,54 @@
+.Sign-in{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.Sign-in .top_design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height:0em;
+    margin: 2em auto;
+    margin-bottom: 4em;
+    flex-wrap: wrap;
+    
+}
+.Sign-in form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sign-in .Form-div {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 0.3em auto;
+    margin-top: 1em;
+    /* padding: 1em; */
+}
+.Sign-in .Form-div label{
+    margin-bottom: 0.5em;
+}
+.Sign-in .Form-Input{
+    height: 5vh;
+    width: 35vw;
+    border: 2px solid #FFDF3A;
+    border-radius: 10px;
+}
+.Sign-in .Login-button{
+    width: 35vw;
+    height: 5vh;
+    background-color: #FFDF3A;
+    border-radius: 10px;
+    font-family: 'poppins';
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    margin-top: 0.5em;
+}

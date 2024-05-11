@@ -1,0 +1,115 @@
+.landing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.landing1{
+    width: 80vw;
+    height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing1 button{
+    border: 2px solid #FFDF3A;
+    background-color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+.landing1 .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.landing1 .text .left{
+    width: 37%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-right: 3em;
+}
+.landing1 .text .right{
+    width: 37%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing1 .text .right img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+/*  */
+
+.landing-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0FBD1;
+
+}
+
+.landing2{
+    width: 80vw;
+    height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0FBD1;
+
+}
+.landing2 .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.landing2 .text .left{
+    width: 37%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-right: 3em;
+}
+.landing2 .text .right{
+    width: 37%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing2 .text .right img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.landing2 button{
+    padding: 0.5em 1em;
+    background-color: #FFDF3A;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 700;
+    border-radius: 10px;
+}
+.landing1 .headings{
+    font-size:3em;
+}
+
+.landing2 .headings{
+    font-size:3em;
+}
